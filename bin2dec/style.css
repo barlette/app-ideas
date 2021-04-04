@@ -1,0 +1,38 @@
+html * {
+  font-family: "Ubuntu", sans-serif;
+  background-color: black;
+}
+
+#notValidWarning {
+  margin-top: 10px;
+  display: none;
+}
+
+.navbar-custom {
+  background-color: black;
+}
+
+.navbar-brand {
+  color: #d63384;
+  margin: 10px 10px 10px 10px;
+}
+
+#binaryInput {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  background-color: black;
+  color: #15ff00;
+}
+
+#decimalOutput {
+  color: #33d6ce;
+  padding: 12px;
+  margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    text-align: center;
+  }
+}
